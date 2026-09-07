@@ -63,9 +63,9 @@ export default function Chatbot() {
       return "Akshat has shipped two highly impressive product initiatives:\n\n1. **Qiplo** (qiplo.vercel.app): An AI Customer Retention SaaS with 8 modules, SHAP feature importance, and CRM integrations. It solves proactive customer attrition.\n2. **AI Chatbot**: A prompt-engineered support agent optimized via A/B testing and SQL telemetry to solve user support friction.\n\nBoth projects showcase his rare combination of CS engineering, product specs writing, and UX design. Which one would you like to dive deeper into?";
     }
 
-    // Skills / Stack / Tools / Figma / SQL
-    if (text.includes("skill") || text.includes("stack") || text.includes("tool") || text.includes("figma") || text.includes("sql") || text.includes("jira") || text.includes("analytics")) {
-      return "Akshat's core skills span three areas:\n\n• **Product Core**: PRD writing, feature specs, backlog/sprint management (Jira), GTM planning.\n• **Data & Analytics**: SQL product telemetry, A/B testing, Power BI, SAS Viya analytics.\n• **UX Design**: Figma wireframing, interactive prototyping, and Google usability testing (he holds a Google UX Design Professional Certificate).";
+    // Skills / Stack / Tools / Figma / SQL / Certifications
+    if (text.includes("certification") || text.includes("credential") || text.includes("cert") || text.includes("skill") || text.includes("stack") || text.includes("tool") || text.includes("figma") || text.includes("sql") || text.includes("jira") || text.includes("agile") || text.includes("atlassian")) {
+      return "Akshat's core skills and verified credentials cover:\n\n• **Product & Agile Core**: Agile with Atlassian Jira (Authorized by Atlassian), PRD writing, feature specs, sprint tracking, and GTM planning.\n• **Data & Analytics**: SQL product telemetry, A/B testing, Power BI, and SAS Viya Machine Learning.\n• **UX Design**: Figma wireframing, interactive prototyping (Google UX Design Professional Certificate).\n• **AI**: DeepLearning.AI Prompt Engineering and Duke University Generative AI.";
     }
 
     // Education / MBA / AKTU / Chandigarh University

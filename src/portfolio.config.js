@@ -194,6 +194,12 @@ export const portfolioConfig = {
       credentialUrl: "https://deeplearning.ai"
     },
     {
+      title: "Agile with Atlassian Jira",
+      issuer: "Atlassian / Coursera",
+      description: "Credential in Agile methodologies, sprint planning, backlog management, and release tracking using Atlassian Jira.",
+      credentialUrl: "https://coursera.org/verify/JYQVY9EJMIRV"
+    },
+    {
       title: "Introduction to Generative AI",
       issuer: "Duke University / Coursera",
       description: "Completed course authorized by Duke University covering generative AI architectures, model capabilities, and pragmatic applications.",
